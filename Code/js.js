@@ -397,7 +397,7 @@ $(document).ready(function () {
                 });
                 $('tbody').on('click', '#ver', function () {
                     var id = {
-                        'id': parseInt($(this).parent().siblings(1).text())
+                        'id': parseInt($(this).parent().prev().prev().prev().prev().text())
                     };
                     console.log(id);
                     $.ajax({

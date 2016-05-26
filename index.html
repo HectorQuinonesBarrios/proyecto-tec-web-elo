@@ -1,57 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vaporwave</title>
-    <link rel="stylesheet" href="Styles/Style.css"/>
+    <meta charset="UTF-8">
+    <title>Top Quiz!</title>
+    <link rel=icon href="favicon.jpg" type="image/png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="icon" href="Images/icon.png"/>
-    <script src="JavaScript/JavaScript.js"></script>
-    
-   </head>
-  <body>
-    <div id="wrapper" >
-      <header>
-        <h1> Hablemos de musica (Vaporwave) </h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="biografia.html">Biografia</a></li>
-            <li><a href="academico.html">Academico</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
 
-      <main id="main">
-          <h2 style="text-align:center; font-size:30px;">Un poco de historia</h2>
-          <p style="text-align:justify; font-size:20px;">Vaporwave Es un género musical que ha emergido a principios de 2010, de géneros de baile Indie como Seapunk, witch house, y chillwave. A pesar de que hay mucha diversidad y ambigüedad en su actitud y mensaje, vaporwave puede ser tomado como una crítica y una parodia a la Sociedad de consumo, cultura yuppie de los 80s, y al New Age, mientras estéticamente exhibe una curiosa y nostálgica fascinación por sus artefactos.</p>
-      </main>
-
-      <aside id="aside">
-        <iframe style="border: 0; width: 300px; height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=930173764/size=large/bgcol=333333/linkcol=fe7eaf/tracklist=false/transparent=true/" seamless><a href="http://prismafm.bandcamp.com/album/midnight-fluorescence-complete">Midnight Fluorescence Complete by Prisma FM</a></iframe>
-      </aside>
-        <hr>
-      <section id="section">
-          <ul>
-              <li><a href="#"><i class="fa fa-facebook-official fa-2x"> Facebook</i></a></li>
-              <li><a href="#"><i class="fa fa-twitter-square fa-2x"> Twitter</i></a></li>
-              <li><a href="#"><i class="fa fa-github-square fa-2x"> GitHub</i></a></li>
-          </ul>
-      </section>
-        
-      <section id="section">
-          <img src="Images/gifderelleno.gif" width="100%" height="100%">
-      </section>
-    
-      <section id="section2">
-          <iframe width="300px" height="300px" src="https://www.youtube.com/embed/cU8HrO7XuiE" frameborder="0" allowfullscreen></iframe>
-      </section>
-
-      <footer>
-        <p>Todos los derechos reservados</p>
-      </footer>
+<body>
+    <div id='body'>
+    <div class='OverWrapper'>
+        <div class='Accion'>
+            <div class='cabezera'>
+                <button>x</button>
+                <h2>Registro</h2>
+            </div>
+            <hr>
+            <div class='cuerpo'>
+                <b>Nombre</b>
+                <br>
+                <input name="Nombre" placeholder="Nombre de usuario">
+                <br>
+                <b>Correo</b>
+                <br>
+                <input name="Correo" placeholder="Correo (Opcional)">
+                <br>
+                <b>Contraseña</b>
+                <br>
+                <input name="Contrasena" type="password" placeholder="Contraseña">
+            </div>
+            <hr>
+            <div class='pie'>
+                <button>Confirmar</button>
+            </div>
+        </div>
     </div>
-  </body>
+    <div id='login'>
+        <div class='cabezera'>
+            <h1>Inicio de sesion</h1>
+        </div>
+        <hr>
+        <div class='cuerpo'>
+            <br>
+            <br>
+            <b>Usuario</b>
+            <br>
+            <input type='text' placeholder="Nombre" id="nom">
+            <br>
+            <b>Contrasena</b>
+            <br>
+            <input type='password' placeholder="Contrasena" id="pas">
+        </div>
+        <hr>
+        <div class='pie'>
+            <button>Entrar</button>
+            <button>Registrar</button>
+        </div>
+
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script type="text/javascript" src="Code/js.js"></script>
+</body>
+
 </html>
